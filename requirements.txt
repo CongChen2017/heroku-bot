@@ -1,7 +1,6 @@
 tweepy==3.5.0
 
-[packages]
-pandas = "*"
-datetime = "*"
-matplotlib.pyplot = "*"
-matplotlib = "*"
+pandas == "*"
+datetime == "*"
+matplotlib.pyplot == "*"
+matplotlib == "*"

@@ -16,16 +16,16 @@ import os
 # analyzer = SentimentIntensityAnalyzer()
 
 # Twitter API Keys
-consumer_key = os.getenv("consumer_key")
-consumer_secret = os.getenv("consumer_secret")
-access_token = os.getenv("access_token")
-access_token_secret = os.getenv("access_token_secret")
+# consumer_key = os.getenv("consumer_key")
+# consumer_secret = os.getenv("consumer_secret")
+# access_token = os.getenv("access_token")
+# access_token_secret = os.getenv("access_token_secret")
 
 
 # Twitter credentials
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
+# auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+# auth.set_access_token(access_token, access_token_secret)
+# api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 # # Target Account
 # target_user = "@SouthwestAir"
@@ -78,9 +78,9 @@ api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 # plt.xlabel("Tweets Ago")
 # plt.savefig("testfig.png")
 
-x_axis = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
-plt.plot(x_axis,y, "ro--")
-plt.savefig("testfig.png")
+# x_axis = [1, 2, 3, 4, 5]
+# y = [2, 4, 6, 8, 10]
+# plt.plot(x_axis,y, "ro--")
+# plt.savefig("testfig.png")
 
-api.update_with_media("testfig.png", "test uploading pic file from Heroku.")
+# api.update_with_media("testfig.png", "test uploading pic file from Heroku.")

@@ -1,1 +1,1 @@
-worker: python QuoteBot.py
+worker: python TweetPicTest01.py

@@ -2,3 +2,5 @@ tweepy==3.5.0
 
 pandas == 0.20.1
 matplotlib == 2.0.2
+
+six == 1.10.0

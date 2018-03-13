@@ -1,11 +1,12 @@
 # Dependencies
+import matplotlib
+matplotlib.use('Agg')
 import tweepy
 # import numpy as np
 # import pandas as pd
 # from datetime import datetime
 import matplotlib.pyplot as plt
 # import tkinter
-matplotlib.use('Agg')
 # from matplotlib import style
 # style.use('ggplot')
 import os

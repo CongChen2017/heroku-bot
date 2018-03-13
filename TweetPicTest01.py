@@ -4,7 +4,8 @@ import tweepy
 # import pandas as pd
 # from datetime import datetime
 import matplotlib.pyplot as plt
-import tkinter
+# import tkinter
+matplotlib.use('Agg')
 # from matplotlib import style
 # style.use('ggplot')
 import os
